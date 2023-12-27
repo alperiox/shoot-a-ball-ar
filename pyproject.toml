@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ar-shoot-a-ball"
+version = "0.1.0"
+description = ""
+authors = ["Alper Balbay <itsc0508@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mediapipe = "0.10.0"
+opencv-contrib-python = "^4.8.1.78"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+pytest = "^7.4.3"
+ipykernel = "^6.27.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
